@@ -1,0 +1,19 @@
+.user{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.user p span{
+    display: block;
+}
+
+.user-name{
+    font: var(--body-16regular);
+}
+
+.user-status{
+    font: var(--caption-12regular);
+    text-transform: uppercase;
+    color: var(--grey);
+}

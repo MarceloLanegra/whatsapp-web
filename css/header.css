@@ -1,0 +1,9 @@
+@import 'user.css';
+
+.header{
+    block-size: var(--blockSize-header);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--grey-4);
+}
