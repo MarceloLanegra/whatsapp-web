@@ -1,4 +1,9 @@
-@import 'chat.css';
+@import 'layout.css';
+@import 'icons.css';
+@import 'ellipsis.css';
+@import 'chat-contact-message-list.css';
+@import 'chat-message-list.css';
 @import 'header.css';
 @import 'message-list.css';
 @import 'action-list.css';
+@import 'search.css';

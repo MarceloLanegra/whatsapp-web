@@ -1,5 +1,6 @@
-.chat{
+.chat-message-list{
     display: flex;
     flex-direction: column;
     block-size: 100vh;
+    flex-grow: 1;
 }

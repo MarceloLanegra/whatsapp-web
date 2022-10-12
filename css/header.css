@@ -1,9 +1,15 @@
 @import 'user.css';
 
 .header{
-    block-size: var(--blockSize-header);
+    max-block-size: var(--blockSize-header);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     background-color: var(--grey-4);
+}
+
+.header-secondary .button{
+    border: none;
+    cursor: pointer;
 }

@@ -4,8 +4,14 @@
     align-items: center;
 }
 
+.user p{
+    margin: 0;
+}
+
 .user p span{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
 }
 
 .user-name{

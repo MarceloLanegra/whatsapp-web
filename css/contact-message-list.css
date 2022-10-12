@@ -1,0 +1,55 @@
+.contact-message-list {
+  display: flex;
+  flex-direction: column;
+  /* height: 500px; */
+  overflow-y: auto;
+}
+
+.contact-message-item {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  align-items: center;
+}
+
+.contact-message-item::before{
+    content: '';
+    width: 23.4375rem;
+    height: 1px;
+    position: absolute;
+    bottom: 1px;
+    left: 2rem;
+    background-color:var(--grey-2);    
+}
+
+.contact-photo img{
+  vertical-align: middle;
+}
+
+.contact-message-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.contact-message-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-name {
+  font: var(--body-16regular);
+}
+
+.contact-message {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.contact-message-text {
+  font: var(--caption-12regular);
+  color: var(--grey);
+  max-inline-size: 331px;
+}
