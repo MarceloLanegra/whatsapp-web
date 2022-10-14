@@ -1,0 +1,24 @@
+.type{
+    display: flex;
+    flex-grow:1;
+}
+
+.type input{
+    flex-grow: 1;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    border-radius: 3.125rem;
+    border: none;
+    color: var(--black);
+    font: var(--body-16regular);
+}
+
+.type input::placeholder{
+    color: var(--grey);
+}
+
+.type input:focus{
+  outline: none ;
+}

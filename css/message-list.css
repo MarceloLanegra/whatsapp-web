@@ -8,5 +8,7 @@
     gap: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-image: url('../images/bg.png');
+    padding-block-end: 1rem;
+    overflow-y: auto;
+    background-color: rgba(227, 220, 214, 0.7);
 }

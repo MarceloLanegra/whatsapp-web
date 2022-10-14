@@ -1,7 +1,6 @@
 .contact-message-list {
   display: flex;
   flex-direction: column;
-  /* height: 500px; */
   overflow-y: auto;
 }
 
@@ -11,6 +10,7 @@
   padding: 1rem;
   position: relative;
   align-items: center;
+  cursor: pointer;
 }
 
 .contact-message-item::before{
@@ -21,6 +21,14 @@
     bottom: 1px;
     left: 2rem;
     background-color:var(--grey-2);    
+}
+
+.contact-message-item:hover {
+  box-shadow: 0 0 3px #719ECE;
+}
+
+.contact-message-item:active{
+  transform: scale(0.99);
 }
 
 .contact-photo img{

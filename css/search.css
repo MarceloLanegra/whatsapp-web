@@ -2,9 +2,9 @@
     border: 1px solid red;
 } */
 
-.icon-search{
+/* .icon-search{
     font-size: 1.5rem;
-}
+} */
 
 .search{
     flex:1;
@@ -23,7 +23,7 @@
 }
 
 .search input{
-  color: var(--grey);
+  color: var(--balck);
   font: var(--body-16regular);
   border-radius: 3.125rem;
   border: none;
@@ -37,4 +37,8 @@
 
 .search input::placeholder{
   color: var(--grey);
+}
+
+.search input:focus{
+  outline: none ;
 }

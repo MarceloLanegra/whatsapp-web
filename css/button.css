@@ -1,0 +1,15 @@
+.button{
+    border: none;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button i{
+    font-size: 1.5rem;
+}
+
+.button:active{
+  transform: scale(.9);
+}

@@ -3,4 +3,7 @@
     flex-direction: column;
     block-size: 100vh;
     flex-grow: 1;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
