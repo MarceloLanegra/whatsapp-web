@@ -1,5 +1,5 @@
 import { createDOM } from "./dom.js";
-import { formatHour, timePeriod } from "./format-hour.js";
+import { formatHour, timePeriod, formatMinutes } from "./format-hour.js";
 
 function messageTemplate(message,hour,minutes,period) {
   return `
@@ -33,7 +33,7 @@ export function newMessage() {
     const minsSent = new Date().getMinutes();
 
     if ($chatInput.value !== ''){
-        const $newMessage = createDOM(messageTemplate($chatInput.value,formatHour(hourSent),minsSent,timePeriod(hourSent)));
+        const $newMessage = createDOM(messageTemplate($chatInput.value,formatHour(hourSent),formatMinutes(minsSent),timePeriod(hourSent)));
     
         $messageList.prepend($newMessage);
         $chatInput.value = "";

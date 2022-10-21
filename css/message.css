@@ -1,10 +1,11 @@
 .message{
-    padding: .5rem;
-    font: var(--body-16regular);
     display: flex;
     flex-direction: column;
     gap: .25rem;
     position: relative;
+    max-inline-size: 35.1875rem;
+    padding: .5rem;
+    font: var(--body-16regular);
 }
 
 .message.is-receiver{
@@ -48,6 +49,9 @@
     border-block-end: 6px solid transparent;
 }
 
+.message-text{
+    word-break: break-all;
+}
 .message-details{
     display: flex;
     justify-content: flex-end;
@@ -76,4 +80,10 @@
     background-size: 1rem;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media screen and (max-width: 992px){
+    .message{
+        max-inline-size: 20.5rem;
+    }
 }
