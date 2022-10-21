@@ -6,3 +6,11 @@
     align-items: center;
     background-color: var(--grey-4);
 }
+
+
+@media screen and (max-width: 992px){
+  .action-list{
+    padding-inline: .5rem;
+    gap: .5rem;
+  }
+}

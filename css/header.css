@@ -1,10 +1,26 @@
-@import 'user.css';
+@import "user.css";
 
-.header{
-    max-block-size: var(--blockSize-header);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: var(--grey-4);
+.header {
+  max-block-size: var(--blockSize-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--grey-4);
+}
+
+.header-primary {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-primary button {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .header-primary button {
+    display: unset;
+  }
 }

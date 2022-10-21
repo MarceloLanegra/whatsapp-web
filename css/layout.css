@@ -1,5 +1,16 @@
-.layout{
-    display: flex;
-    max-inline-size: 100rem;
-    margin: auto;
+.layout-container {
+  display: flex;
+  max-inline-size: 100rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .layout {
+    overflow: hidden;
+  }
+
+  .layout-container {
+    width: 200vw;
+    max-inline-size: unset;
+  }
 }

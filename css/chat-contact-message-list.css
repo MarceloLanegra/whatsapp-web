@@ -1,11 +1,16 @@
 @import 'contact-message-list.css';
 
 .chat-contact-message-list{
-    /* border: 1px solid red; */
     max-inline-size: 27.5rem;
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
     block-size: 100vh;
-    /* overflow: hidden; */
+}
+
+@media screen and (max-width: 992px) {
+    .chat-contact-message-list{
+        max-inline-size: unset;
+        width: 100vw;
+        transition: all .7s;
+    }
 }
